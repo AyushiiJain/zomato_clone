@@ -41,8 +41,6 @@ nav{
 nav .nav-item{
     color: #fff;
     margin: 0px 10px;
-
-
 }
 
 nav div.container{
@@ -124,7 +122,16 @@ header div.search-box div.input{
 header div.search-box div.input input{
     width: 100%;
     font-size: 1rem;
+    align-self: center;
 }
+
+header div.search-box div.select select{
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #757575;
+}
+
+/* nearby locations section */
 
 
 /* header section complete ------------ */
